@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{c2ac3b07-99d7-4110-87fa-1b9afa1af2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{9fdf7b25-dadd-48ef-a966-31f7645a80fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CBMiniFW">
+      <UniqueIdentifier>{92deabde-57b5-4c3c-bd7b-556cacf43c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CBMiniFW">
+      <UniqueIdentifier>{2de58720-d873-48d4-908e-719d98c89ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pathfinding">
+      <UniqueIdentifier>{69b2e942-49d2-4a4a-b03a-7082e7e6dad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pathfinding">
+      <UniqueIdentifier>{c2dad2ee-f7e9-44ba-8717-f0c2ed039651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{0b0fd1dc-8249-4a9e-bc04-a7f052e7e0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{a3eb3c47-b30f-4923-986a-bb9f55231081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{325a782d-4af9-4f24-9382-7ff7b40ff7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{85ac791b-7e89-4654-90a0-e80df3e54f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object">
+      <UniqueIdentifier>{4f496438-eeb0-4e0b-9579-045bd82209e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{c096170b-f976-4f48-992c-a795c3376c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{f8f49ef2-7282-4176-9464-82d0319e3f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Particles">
+      <UniqueIdentifier>{571825f3-755e-440d-9843-eae6fc898e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Particles">
+      <UniqueIdentifier>{135f0de4-1812-4b4a-8d5d-a50be6cf9d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Motion Blur">
+      <UniqueIdentifier>{95d55a82-3f96-4236-927a-b5c42b293c4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarPathFinder.cpp">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="PathNode.cpp">
+      <Filter>Source Files\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpMe.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera3D.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CBMiniFW\CBMiniFW.cpp">
+      <Filter>Source Files\CBMiniFW</Filter>
+    </ClCompile>
+    <ClCompile Include="CBMiniFW\FrameBuffer.cpp">
+      <Filter>Source Files\CBMiniFW</Filter>
+    </ClCompile>
+    <ClCompile Include="CBMiniFW\GLSLShader.cpp">
+      <Filter>Source Files\CBMiniFW</Filter>
+    </ClCompile>
+    <ClCompile Include="CBMiniFW\Utility.cpp">
+      <Filter>Source Files\CBMiniFW</Filter>
+    </ClCompile>
+    <ClCompile Include="CBMiniFW\VertexBuffer.cpp">
+      <Filter>Source Files\CBMiniFW</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\Engine\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEruption.cpp">
+      <Filter>Source Files\Engine\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleExplosion.cpp">
+      <Filter>Source Files\Engine\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleImpactCloud.cpp">
+      <Filter>Source Files\Engine\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleAsh.cpp">
+      <Filter>Source Files\Engine\Particles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationMath.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarPathfinder.h">
+      <Filter>Header Files\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="PathNode.h">
+      <Filter>Header Files\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpMe.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="glext.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3D.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CBMiniFW\CBMiniFW.h">
+      <Filter>Header Files\CBMiniFW</Filter>
+    </ClInclude>
+    <ClInclude Include="CBMiniFW\FrameBuffer.h">
+      <Filter>Header Files\CBMiniFW</Filter>
+    </ClInclude>
+    <ClInclude Include="CBMiniFW\GLSLShader.h">
+      <Filter>Header Files\CBMiniFW</Filter>
+    </ClInclude>
+    <ClInclude Include="CBMiniFW\Utility.h">
+      <Filter>Header Files\CBMiniFW</Filter>
+    </ClInclude>
+    <ClInclude Include="CBMiniFW\VertexBuffer.h">
+      <Filter>Header Files\CBMiniFW</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimation.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEruption.h">
+      <Filter>Header Files\Engine\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\Engine\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Engine\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleExplosion.h">
+      <Filter>Header Files\Engine\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleImpactCloud.h">
+      <Filter>Header Files\Engine\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleAsh.h">
+      <Filter>Header Files\Engine\Particles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\additive_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\boxBlur_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\brightTone_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\celShading_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\gaussBlur2D_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\gaussBlurX_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\gaussBlurY_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\passAttribs_v.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\passTexcoord_ndc_v.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\passthrough_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\phongLighting_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\postOutlines_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\screenComposite_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\particle_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\particle_passAttribs_v.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\particle_g.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\particle_composite_f.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\Motion Blur\blend_f.glsl">
+      <Filter>Resource Files\Shaders\Motion Blur</Filter>
+    </None>
+    <None Include="Resources\Shaders\Motion Blur\motionBlur_f.glsl">
+      <Filter>Resource Files\Shaders\Motion Blur</Filter>
+    </None>
+  </ItemGroup>
+</Project>

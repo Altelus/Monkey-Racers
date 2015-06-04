@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AStarPathFinder.cpp" />
+    <ClCompile Include="Camera3D.cpp" />
+    <ClCompile Include="CBMiniFW\CBMiniFW.cpp" />
+    <ClCompile Include="CBMiniFW\FrameBuffer.cpp" />
+    <ClCompile Include="CBMiniFW\GLSLShader.cpp" />
+    <ClCompile Include="CBMiniFW\Utility.cpp" />
+    <ClCompile Include="CBMiniFW\VertexBuffer.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="HelpMe.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ParticleAsh.cpp" />
+    <ClCompile Include="ParticleEruption.cpp" />
+    <ClCompile Include="ParticleExplosion.cpp" />
+    <ClCompile Include="ParticleImpactCloud.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="Path.cpp" />
+    <ClCompile Include="PathNode.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
+    <ClCompile Include="sound.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Vec2.cpp" />
+    <ClCompile Include="Vec3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationMath.h" />
+    <ClInclude Include="AStarPathfinder.h" />
+    <ClInclude Include="Camera3D.h" />
+    <ClInclude Include="CBMiniFW\CBMiniFW.h" />
+    <ClInclude Include="CBMiniFW\FrameBuffer.h" />
+    <ClInclude Include="CBMiniFW\GLSLShader.h" />
+    <ClInclude Include="CBMiniFW\Utility.h" />
+    <ClInclude Include="CBMiniFW\VertexBuffer.h" />
+    <ClInclude Include="Configuration.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="glext.h" />
+    <ClInclude Include="HelpMe.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuManager.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelAnimation.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleAsh.h" />
+    <ClInclude Include="ParticleEruption.h" />
+    <ClInclude Include="ParticleExplosion.h" />
+    <ClInclude Include="ParticleImpactCloud.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="PathNode.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="SkyBox.h" />
+    <ClInclude Include="sound.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Vec2.h" />
+    <ClInclude Include="Vec3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\additive_f.glsl" />
+    <None Include="Resources\Shaders\boxBlur_f.glsl" />
+    <None Include="Resources\Shaders\brightTone_f.glsl" />
+    <None Include="Resources\Shaders\celShading_f.glsl" />
+    <None Include="Resources\Shaders\gaussBlur2D_f.glsl" />
+    <None Include="Resources\Shaders\gaussBlurX_f.glsl" />
+    <None Include="Resources\Shaders\gaussBlurY_f.glsl" />
+    <None Include="Resources\Shaders\Motion Blur\blend_f.glsl" />
+    <None Include="Resources\Shaders\Motion Blur\motionBlur_f.glsl" />
+    <None Include="Resources\Shaders\particle_composite_f.glsl" />
+    <None Include="Resources\Shaders\particle_f.glsl" />
+    <None Include="Resources\Shaders\particle_g.glsl" />
+    <None Include="Resources\Shaders\particle_passAttribs_v.glsl" />
+    <None Include="Resources\Shaders\passAttribs_v.glsl" />
+    <None Include="Resources\Shaders\passTexcoord_ndc_v.glsl" />
+    <None Include="Resources\Shaders\passthrough_f.glsl" />
+    <None Include="Resources\Shaders\phongLighting_f.glsl" />
+    <None Include="Resources\Shaders\postOutlines_f.glsl" />
+    <None Include="Resources\Shaders\screenComposite_f.glsl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2A51113E-1FD9-4AA8-96C2-ED276E71E508}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Test</RootNamespace>
+    <ProjectName>GDW</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\100515125\Documents\Visual Studio 2010\glew-1.10.0\include;C:\Users\100515125\Documents\Visual Studio 2010\SFML-2.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\100515125\Documents\Visual Studio 2010\glew-1.10.0\lib\Release\Win32;C:\Users\100515125\Documents\Visual Studio 2010\SFML-2.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\100515125\Documents\Visual Studio 2010\glew-1.10.0\include;C:\Users\100515125\Documents\Visual Studio 2010\SFML-2.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\100515125\Documents\Visual Studio 2010\glew-1.10.0\lib\Release\Win32;C:\Users\100515125\Documents\Visual Studio 2010\SFML-2.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;SFML_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\100515125\Documents\Visual Studio 2010\glew-1.10.0\include;C:\Users\100515125\Documents\Visual Studio 2010\SFML-2.1\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\100515125\Documents\Visual Studio 2010\glew-1.10.0\lib\Release\Win32;C:\Users\100515125\Documents\Visual Studio 2010\SFML-2.1\lib;C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-audio-s-d.lib;glu32.lib;glew32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;SFML_STATIC;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\100515125\Documents\Visual Studio 2010\glew-1.10.0\include;C:\Users\100515125\Documents\Visual Studio 2010\SFML-2.1\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\100515125\Documents\Visual Studio 2010\glew-1.10.0\lib\Release\Win32;C:\Users\100515125\Documents\Visual Studio 2010\SFML-2.1\lib;C:\Program Files (x86)\FMOD SoundSystem\FMOD Programmers API Windows\api\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;sfml-audio-s.lib;glu32.lib;glew32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
