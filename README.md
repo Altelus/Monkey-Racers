@@ -1,5 +1,7 @@
 # Monkey-Racers
 
+[Trailer](https://www.youtube.com/watch?v=SZqCv6cV9LQ)  
+
 Monkey Racers	is a game designed by Gamesmiths where you play as Dexter the monkey, a Monkey on a tropical island enjoying himself when suddenly the volcano on the island erupts. Dexter must now escape from the island to the dock before time runs out while avoiding the eruptions of the volcano!	
 
 **Objective**  
